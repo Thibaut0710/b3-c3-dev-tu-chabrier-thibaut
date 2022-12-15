@@ -1,0 +1,14 @@
+{
+  "name": "calcultrice",
+  "version": "1.0.0",
+  "description": "Creation d'une calculatrice en JS",
+  "main": "calculatrice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thibaut Chabrier",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
