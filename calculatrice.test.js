@@ -45,6 +45,9 @@ describe("test de la calculatrice avec les soustraction",()=>{
 }),
 
 describe("test de la calculatrice avec la multiplication",()=>{
+    test("1*0 = 0",()=>{
+        expect(calcule('1*0')).toBe("0");
+    })
     test('1*2 = 3',()=>{
         expect(calcule("1*2")).toBe("2");
     }),
